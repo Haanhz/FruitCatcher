@@ -1295,6 +1295,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 489119405}
+  - component: {fileID: 489119406}
   m_Layer: 0
   m_Name: MistEffect
   m_TagString: Untagged
@@ -1310,9 +1311,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 489119404}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.13765278, y: 0.19559807, z: -0.10027274}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -3.6643171, y: 5.2068214, z: -2398.4692}
+  m_LocalScale: {x: 26.62, y: 26.62, z: 26.62}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 995541381}
@@ -1330,8 +1331,29 @@ Transform:
   - {fileID: 1910698104}
   - {fileID: 673438971}
   - {fileID: 374759373}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 524103861}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &489119406
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 489119404}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a22c0f9213fa8594d93f1005a3bafba3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1520,6 +1542,8 @@ RectTransform:
   m_Children:
   - {fileID: 805385601}
   - {fileID: 649233516}
+  - {fileID: 489119405}
+  - {fileID: 685020624}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1812,15 +1836,15 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 685020622}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.057155844, y: -0.26884276, z: 90.00001}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.5214887, y: -7.1565943, z: 0.00020309449}
+  m_LocalScale: {x: 26.62, y: 26.62, z: 26.62}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1933070047}
   - {fileID: 42644031}
   - {fileID: 279907289}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 524103861}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &805385600
 GameObject:
@@ -1923,7 +1947,7 @@ Transform:
   m_GameObject: {fileID: 995541380}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.82, y: -0.95, z: 0.10027274}
+  m_LocalPosition: {x: -5.75, y: -0.98, z: 0.10027274}
   m_LocalScale: {x: 1.973235, y: 1.973235, z: 1.973235}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2697,6 +2721,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1796550928}
   - component: {fileID: 1796550929}
+  - component: {fileID: 1796550930}
   m_Layer: 0
   m_Name: clouds_2 (2)
   m_TagString: Untagged
@@ -2713,7 +2738,7 @@ Transform:
   m_GameObject: {fileID: 1796550927}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.35, y: -5.49, z: 0.10027274}
+  m_LocalPosition: {x: 7.35, y: -5.49, z: 0.1002727}
   m_LocalScale: {x: 1.7173123, y: 1.7173123, z: 1.7173123}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2771,6 +2796,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1796550930
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1796550927}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: dbfe11e17e568b04c9b3373af68cad64, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1805842165
 GameObject:
   m_ObjectHideFlags: 0
@@ -3199,6 +3245,4 @@ SceneRoots:
   - {fileID: 1650114669}
   - {fileID: 482677723}
   - {fileID: 55761103}
-  - {fileID: 685020624}
-  - {fileID: 489119405}
   - {fileID: 524103861}
