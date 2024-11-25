@@ -25,6 +25,6 @@ public class Loosing : MonoBehaviour
     }
 
     void Load(){
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }
