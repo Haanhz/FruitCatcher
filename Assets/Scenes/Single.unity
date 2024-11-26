@@ -219,7 +219,7 @@ GameObject:
   - component: {fileID: 55761101}
   - component: {fileID: 55761104}
   m_Layer: 0
-  m_Name: Triangle (1)
+  m_Name: Warning
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -341,7 +341,7 @@ GameObject:
   - component: {fileID: 104890408}
   - component: {fileID: 104890407}
   m_Layer: 0
-  m_Name: Circle
+  m_Name: Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -365,6 +365,7 @@ MonoBehaviour:
   hurricaneSideSpeed: 10
   zigzagFrequency: 10
   zigzagAmplitude: 10
+  basket: {fileID: 381165967}
 --- !u!212 &104890408
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -549,11 +550,11 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 482677723}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 100, y: -25}
-  m_SizeDelta: {x: 200, y: 50}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -793.99994, y: 472}
+  m_SizeDelta: {x: -1720, y: -1030}
+  m_Pivot: {x: 0.4999997, y: 0.5}
 --- !u!114 &220033159
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1171,6 +1172,7 @@ MonoBehaviour:
   red:
     serializedVersion: 2
     rgba: 4278190335
+  timeCount: 0
 --- !u!114 &381165973
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1327,7 +1329,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -3.6643171, y: 5.2068214, z: -2398.4692}
-  m_LocalScale: {x: 26.62, y: 26.62, z: 26.62}
+  m_LocalScale: {x: 52.201874, y: 56.359547, z: 46.19635}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 995541381}
@@ -1455,7 +1457,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.099, y: 1.099, z: 1.099}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1851,8 +1853,8 @@ Transform:
   m_GameObject: {fileID: 685020622}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.5214887, y: -7.1565943, z: 0.00020309449}
-  m_LocalScale: {x: 26.62, y: 26.62, z: 26.62}
+  m_LocalPosition: {x: 118, y: -88, z: 0.00020309449}
+  m_LocalScale: {x: 47.21055, y: 47.21055, z: 47.21055}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1933070047}
@@ -2283,7 +2285,7 @@ GameObject:
   - component: {fileID: 1388503818}
   - component: {fileID: 1388503817}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: LooseText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2843,7 +2845,7 @@ GameObject:
   - component: {fileID: 1805842167}
   - component: {fileID: 1805842166}
   m_Layer: 0
-  m_Name: Triangle
+  m_Name: White
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2867,6 +2869,7 @@ MonoBehaviour:
   hurricaneSideSpeed: 10
   zigzagFrequency: 10
   zigzagAmplitude: 10
+  basket: {fileID: 381165967}
 --- !u!212 &1805842167
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3115,7 +3118,7 @@ GameObject:
   - component: {fileID: 2119796968}
   - component: {fileID: 2119796967}
   m_Layer: 0
-  m_Name: Square (1)
+  m_Name: Loosebar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3241,7 +3244,7 @@ Transform:
   m_GameObject: {fileID: 2119796966}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.1517, y: -10.5013, z: 0}
+  m_LocalPosition: {x: 0.1, y: -10.5, z: 0}
   m_LocalScale: {x: 35.76351, y: 0.8227, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

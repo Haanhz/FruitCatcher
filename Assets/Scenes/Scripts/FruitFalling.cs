@@ -16,6 +16,7 @@ public class FruitFalling : MonoBehaviour
     public float hurricaneSideSpeed = 2.0f;
     public float zigzagFrequency = 2.0f;                 // Frequency of zigzag motion
     public float zigzagAmplitude = 1.0f;                 // Amplitude of zigzag motion
+    public GameObject basket;
 
     //public GameObject basket;
 
