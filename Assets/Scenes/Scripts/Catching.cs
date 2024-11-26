@@ -10,12 +10,18 @@ public class Catching : MonoBehaviour
     private List<Color32> basketColor = new List<Color32>();
     SpriteRenderer spriteRenderer;
     private int colorIndex = 0;
+    public float timeCount =0f;
 
     private void Start() {
         basketColor.Add(white);
         basketColor.Add(red);
         spriteRenderer = GetComponent<SpriteRenderer>();
         InvokeRepeating("ChangeColor", 0f, 10f);
+    }
+
+    private void Update() {
+            timeCount +=Time.deltaTime;
+            //Debug.Log( timeCount );
     }
 
     private void OnTriggerEnter2D(Collider2D other) {
@@ -28,6 +34,8 @@ public class Catching : MonoBehaviour
     private void ChangeColor(){
         spriteRenderer.color = basketColor[colorIndex];
         colorIndex = (colorIndex+1) % basketColor.Count; //cần xem thêm
+        timeCount=0f;
+
     }
 }
 

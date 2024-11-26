@@ -9,13 +9,16 @@ public class Loosing : MonoBehaviour
 {
     public GameObject text;
     public GameObject basket;
+    private float time;
 
     private void Start() {
         text.SetActive(false);
+       
     }
 
     private void OnTriggerEnter2D(Collider2D other) {
-        if(other.GetComponent<SpriteRenderer>().color == basket.GetComponent<SpriteRenderer>().color){
+        time =basket.GetComponent<Catching>().timeCount;
+        if((other.GetComponent<SpriteRenderer>().color == basket.GetComponent<SpriteRenderer>().color) && time>1f ){
             Debug.Log("You failed!");
             basket.GetComponent<Moving>().loose = true;
             text.SetActive(true);
@@ -25,6 +28,6 @@ public class Loosing : MonoBehaviour
     }
 
     void Load(){
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }
