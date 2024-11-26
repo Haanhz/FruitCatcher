@@ -256,7 +256,7 @@ GameObject:
   - component: {fileID: 606632463}
   - component: {fileID: 606632462}
   m_Layer: 0
-  m_Name: Square (1)
+  m_Name: Loosebar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -477,7 +477,7 @@ GameObject:
   - component: {fileID: 952583073}
   - component: {fileID: 952583077}
   m_Layer: 0
-  m_Name: Square
+  m_Name: Hit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -594,7 +594,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fae6fc8e345e1f74e92042a293dc6759, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  windPrefab: {fileID: 4598923326554229219, guid: 9ac627d8e4c7cea42b9e2a3f638d92bf, type: 3}
+  windPrefab: {fileID: 8070292778394138349, guid: 45b9f7a400eb9f146bb3efea09e95a1a, type: 3}
   spawnPoint: {fileID: 952583076}
   windLifetime: 2
   windCooldown: 1
@@ -865,7 +865,7 @@ GameObject:
   - component: {fileID: 1149449159}
   - component: {fileID: 1149449158}
   m_Layer: 0
-  m_Name: Circle
+  m_Name: Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -969,7 +969,7 @@ GameObject:
   - component: {fileID: 1230356537}
   - component: {fileID: 1230356536}
   m_Layer: 0
-  m_Name: Triangle
+  m_Name: White
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1504,7 +1504,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd0e495d5f9bb104ab7bc0002b1dc96b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wind: {fileID: 4598923326554229219, guid: 9ac627d8e4c7cea42b9e2a3f638d92bf, type: 3}
+  wind: {fileID: 8070292778394138349, guid: 45b9f7a400eb9f146bb3efea09e95a1a, type: 3}
   score: {fileID: 1864502217}
 --- !u!1 &1905972368
 GameObject:
