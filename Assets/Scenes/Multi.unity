@@ -261,7 +261,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &606632462
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -476,6 +476,7 @@ GameObject:
   - component: {fileID: 952583074}
   - component: {fileID: 952583073}
   - component: {fileID: 952583077}
+  - component: {fileID: 952583078}
   m_Layer: 0
   m_Name: Hit
   m_TagString: Untagged
@@ -589,9 +590,25 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 952583072}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fae6fc8e345e1f74e92042a293dc6759, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  windPrefab: {fileID: 8070292778394138349, guid: 45b9f7a400eb9f146bb3efea09e95a1a, type: 3}
+  spawnPoint: {fileID: 952583076}
+  windLifetime: 2
+  windCooldown: 1
+--- !u!114 &952583078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 952583072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5def5fbe355027e47abc84d01e6080b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   windPrefab: {fileID: 8070292778394138349, guid: 45b9f7a400eb9f146bb3efea09e95a1a, type: 3}
